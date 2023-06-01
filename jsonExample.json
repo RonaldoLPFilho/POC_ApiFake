@@ -1,0 +1,40 @@
+{
+    "Id1": [
+        {
+            "Informacoes": {
+                "RelatorioPortal": "Fecha de Recepcion",
+                "Hunter": "Inserir a data do arquivo",
+                "DadosDeExemplo": "30/05/2000"
+            }
+        }
+    ],
+    "Id2": [
+        {
+            "Informacoes": {
+                "RelatorioPortal": "Passarela",
+                "Hunter": "Exemplo Getnet",
+                "DadosDeExemplo": "Getnet"
+            }
+        }
+    ],
+    "Id3": [
+        {
+            "Informacoes":{
+                "RelatorioPortal": "Fecha transaccion",
+                "Hunter": "Fecha transaccion",
+                "DadosDeExemplo": "21/02/2021"
+            }
+        }
+    ],
+    "Id4": [
+        {
+            "Informacoes": {
+                "RelatorioPortal": "Calaim code",
+                "Hunter": "Order ID",
+                "DadosDeExemplo": "MXLFUFO4LN20A4D558"
+            }
+        }
+    ]
+
+
+}
