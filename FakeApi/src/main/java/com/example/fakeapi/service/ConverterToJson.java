@@ -5,6 +5,7 @@ import com.opencsv.CSVParserBuilder;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVReaderBuilder;
 import com.opencsv.exceptions.CsvException;
+import org.apache.commons.text.CaseUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.stereotype.Component;
@@ -35,6 +36,7 @@ public class ConverterToJson {
 
                 for (int j = 0; j < headers.length; j++) {
                     String header = headers[j];
+                    header = CaseUtils.toCamelCase(header, false, ' ');
                     String value = rowData[j];
                     jsonObject.put(header, value);
                 }
